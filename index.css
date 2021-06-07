@@ -1,0 +1,93 @@
+.body{
+    background-color: white;
+
+}
+.headarea h1{
+    color: purple; 
+    font-size: 60px;
+    font-family: monospace;
+    display: block;
+    background-image: url(resources/four.jpg);width: max-content;
+    background-position: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding: 300px;
+            }
+.introduction{
+    background-color:seashell;
+             }
+.introduction h1{
+            text-transform: capitalize;
+            font-size: 30px;
+            color: slateblue;
+                }
+.body p{
+    text-align: left;
+       }
+.biography {
+            color: blue;
+           }       
+.malik h2{
+    text-align: left;
+        }  
+.malik img{
+     float: left;
+     width: 120px;
+         }
+.liam h2{
+    text-align: left;
+        }
+.liam img{
+    float: left; 
+    width: 90px;
+         }
+.liam p{
+    float: right;
+       } 
+.niall h2{
+    text-align: left; 
+        }      
+.niall img{
+     float: left;
+     width: 110px;
+         }        
+.harry h2{
+    text-align: left;
+         }
+.harry img{
+    float: left;
+    width: 90px
+         }
+.louis h2{
+    text-align: left;
+         }
+.louis img{
+    float: left;
+    width: 100px
+          }    
+.footerarea h2{
+       text-align:center;
+       font-size: medium; 
+       font-style: italic ; 
+       color: blue ;
+               }
+            .row{
+                box-sizing: border-box;
+            } 
+        
+            
+            
+            .column {
+              float: left;
+              width: 50%;
+              padding: 10px;
+              height: 300px; 
+            }
+            
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
